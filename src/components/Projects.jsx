@@ -2,6 +2,7 @@ import Project1 from "../assets/Newflix.png";
 import Project2 from "../assets/Image_search.png";
 import Project4 from "../assets/portfolio_img.png";
 import { Link } from "react-router-dom";
+
 const Projects = () => {
   return (
     <section id="projects">
@@ -35,7 +36,12 @@ const Projects = () => {
             </p>
             <div className="flex gap-2 mt-12">
               <button className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
-                Live preview
+                <Link
+                  to="https://image-search-seven-eta.vercel.app/"
+                  target="_blank"
+                >
+                  Live preview
+                </Link>
               </button>
               <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
                 Checkout github
@@ -50,7 +56,7 @@ const Projects = () => {
               Landing page for front-end developer
             </h3>
             <p className="text-gray-400 text-sm mt-2">
-              Responsive HTML/CSS layout for landing page for front-end
+              Responsive HTML/CSS layout for landing page for front-end
               developer. HTML5, CSS3 (SCSS)
             </p>
             <div className="flex gap-2 mt-12">
@@ -73,7 +79,7 @@ const Projects = () => {
             </p>
             <div className="flex gap-2 mt-12">
               <button className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
-                <Link to="https://newflix-gpt.vercel.app/" target="_blank">
+                <Link to="https://tabinda.vercel.app/" target="_blank">
                   Live preview
                 </Link>
               </button>
