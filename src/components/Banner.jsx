@@ -1,4 +1,5 @@
 import Profile from "../assets/fe_dev_img.jpeg";
+import DownloadResume from "./DownloadResume";
 
 const Banner = () => {
   return (
@@ -16,9 +17,7 @@ const Banner = () => {
               Software Engineer, seeking to apply competent development skills
               with focus on collaboration, communication, and passion
             </p>
-            <button className="px-8 shadow-gray-500 shadow-md py-5 mt-5 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
-              Download resume
-            </button>
+            <DownloadResume />
           </div>
         </div>
         <div className="relative">

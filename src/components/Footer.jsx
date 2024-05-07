@@ -11,12 +11,12 @@ const Footer = () => {
         <div>
           <ul className="flex gap-4">
             <li>
-              <a href="">
+              <a href="https://www.linkedin.com/in/tabinda-m-a0824871/">
                 <img src={LinkedIn} className="w-5" />
               </a>
             </li>
             <li>
-              <a href="">
+              <a href="https://github.com/tabindaa">
                 <img src={Github} className="w-5" />
               </a>
             </li>

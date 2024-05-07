@@ -1,6 +1,6 @@
 const TechologyBar = () => {
   return (
-    <section className="py-10">
+    <section className="py-10"  id="technologies">
       <div className="container m-auto px-4">
         <h2 className="text-2xl font-semibold">Technologies</h2>
         <div className="mt-14">
