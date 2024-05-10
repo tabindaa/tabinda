@@ -1,10 +1,17 @@
 const TechologyBar = () => {
   return (
-    <section className="py-10"  id="technologies">
+    <section className="py-10" id="technologies">
       <div className="container m-auto px-4">
         <h2 className="text-2xl font-semibold">Technologies</h2>
         <div className="mt-14">
-          <div>
+          <div className="mt-8">
+            <div className="flex justify-between items-center">
+              <h2 className="font-semibold">JavaScript (ES6)/ TypeScript</h2>
+              <p className="text-gray-500"> Advanced</p>
+            </div>
+            <span className="w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 rounded-md block"></span>
+          </div>
+          <div className="mt-8">
             <div className="flex justify-between items-center">
               <h2 className="font-semibold">HTML</h2>
               <p className="text-gray-500"> Advanced</p>
@@ -13,14 +20,7 @@ const TechologyBar = () => {
           </div>
           <div className="mt-8">
             <div className="flex justify-between items-center">
-              <h2 className="font-semibold">CSS, Bootstrap</h2>
-              <p className="text-gray-500"> Advanced</p>
-            </div>
-            <span className="w-[75%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 rounded-md block"></span>
-          </div>
-          <div className="mt-8">
-            <div className="flex justify-between items-center">
-              <h2 className="font-semibold">JavaScript/TypeScript</h2>
+              <h2 className="font-semibold">CSS, Bootstrap, Tailwind CSS</h2>
               <p className="text-gray-500"> Advanced</p>
             </div>
             <span className="w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 rounded-md block"></span>
@@ -38,6 +38,13 @@ const TechologyBar = () => {
               <p className="text-gray-500"> Advanced</p>
             </div>
             <span className="w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 rounded-md block"></span>
+          </div>
+          <div className="mt-8">
+            <div className="flex justify-between items-center">
+              <h2 className="font-semibold">NextJS</h2>
+              <p className="text-gray-500"> Intermediate</p>
+            </div>
+            <span className="w-[65%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 rounded-md block"></span>
           </div>
           <div className="mt-8">
             <div className="flex justify-between items-center">
