@@ -23,7 +23,12 @@ const Projects = () => {
                 </Link>
               </button>
               <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
-                Checkout github
+                <Link
+                  to="https://github.com/tabindaa/netflix-gpt"
+                  target="_blank"
+                >
+                  Checkout github
+                </Link>
               </button>
             </div>
           </div>
@@ -44,7 +49,12 @@ const Projects = () => {
                 </Link>
               </button>
               <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
-                Checkout github
+                <Link
+                  to="https://github.com/tabindaa/Image_search"
+                  target="_blank"
+                >
+                  Checkout github
+                </Link>
               </button>
             </div>
           </div>
@@ -84,7 +94,9 @@ const Projects = () => {
                 </Link>
               </button>
               <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
-                Checkout github
+                <Link to="https://github.com/tabindaa/tabinda" target="_blank">
+                  Checkout github
+                </Link>
               </button>
             </div>
           </div>
